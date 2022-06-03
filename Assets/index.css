@@ -1,6 +1,7 @@
 body {
   padding: 0px;
   margin: 0px;
+  background-color:whitesmoke;
 }
 .nav {
   background-color: green;
@@ -18,8 +19,14 @@ body {
   float: leftS;
 }
 .sets {
-  border: 1px solid red;
-  margin-left: 7%;
+  margin-left: 4%;
+  font-size: x-large;
+
+}
+.sets p h3{
+    padding: 30%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
 }
 button {
   color: black;
@@ -33,4 +40,12 @@ button {
   padding-left: 30%;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: xx-large;
+}
+.footer{
+    background-color: darkslategray;
+    padding-bottom: 10px;
+}
+li{
+    display: inline;
+    padding: 50px;
 }
