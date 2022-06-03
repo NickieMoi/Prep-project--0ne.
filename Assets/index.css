@@ -1,9 +1,22 @@
-body{ padding: 0px;
-    margin:0px;
+body{
+    padding: 0px;
+    margin: 0px;
 }
-.navigation{ 
-    background-color: aqua;
+.nav{
+    background-color: green;
     font-size: larger;
-    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.navigation bar
+#nav-bar>li{
+    display: inline-block;
+    padding: 40px;
+}
+.content{
+    display: flex;
+    float: leftS;
+}
+.sets{
+    border: 1px solid red;
+    margin-left: 7%;
+}
