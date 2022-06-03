@@ -20,3 +20,7 @@ body{
     border: 1px solid red;
     margin-left: 7%;
 }
+button{
+    color:black;
+    cursor: pointer;
+}
