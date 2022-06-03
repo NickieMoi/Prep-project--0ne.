@@ -49,3 +49,8 @@ li{
     display: inline;
     padding: 50px;
 }
+span{
+  color: chocolate;
+  font-size: x-large;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
