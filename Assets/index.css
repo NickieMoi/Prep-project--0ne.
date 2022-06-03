@@ -14,6 +14,9 @@ body {
   display: inline-block;
   padding: 40px;
 }
+h1{
+  justify-content: center;
+}
 .content {
   display: flex;
   float: leftS;
@@ -31,6 +34,7 @@ body {
 button {
   color: black;
   cursor: pointer;
+  border-radius: 10px;
 }
 .partners {
   display: flex;
@@ -44,13 +48,17 @@ button {
 .footer{
     background-color: darkslategray;
     padding-bottom: 10px;
+    justify-content: space-around;
+    text-align: justify;
 }
-li{
-    display: inline;
-    padding: 50px;
+.contactsi{
+    padding: 2%;
+    justify-content: space-between;
+    flex-direction: column;
+    
 }
 span{
-  color: chocolate;
+  color:chocolate;
   font-size: x-large;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family:Impact, Haettenschweiler,'Arial Narrow Bold', sans-serif;
 }
