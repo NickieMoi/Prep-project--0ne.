@@ -56,3 +56,10 @@ nav {
 #float{
     display: inline-block;
 }
+#btn-acc{
+    padding: 10px;
+    border-radius: 10px;
+    background-color:cyan;
+    text-align: center;
+    color: black;
+}
